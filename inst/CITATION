@@ -1,0 +1,11 @@
+citHeader("To cite shinyPlusPXL in use:")
+
+citEntry(entry = "Manual",
+  title        = "shinyPlusPXL: Extension of Shiny Functions for PAREXEL Applications",
+  author       = person("Andrea", "Berardi", email = "Andrea.Berardi@PAREXEL.com", role = c("aut", "cre", "cph")),
+  year         = "2019",
+  url          = "TBC",
+
+  textVersion  =
+  paste("shinyPlusPXL: Extension of Shiny Functions for PAREXEL Applications.")
+)
