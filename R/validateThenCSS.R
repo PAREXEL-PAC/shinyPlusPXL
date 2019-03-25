@@ -9,8 +9,11 @@
 #' @param raiseModal Logical, raise a modal \code{sweetAlert} if the input is invalid.
 #' @return Invisible TRUE if executes correctly, can be used for further validation or resets.
 #' @examples
-#' \dontrun{validateThenCSS(session, "inputId", need(!is.na(x), "x is NA"))}
-#' #' @seealso \code{\link{validateThen}}, \code{\link{errorMessage}}, \code{\link[shiny]{validate}}, \code{\link[shiny]{need}}
+#' \dontrun{validateThenCSS(session,
+#' "inputId", need(!is.na(x), "x is NA"))}
+#'
+#' @seealso \code{\link{validateThen}}, \code{\link{errorMessage}},
+#' \code{\link[shiny]{validate}}, \code{\link[shiny]{need}}
 #'
 #' @author Andrea Berardi \email{Andrea.Berardi@PAREXEL.com}
 validateThenCSS = function(session, inputId, ..., errorTitle = NULL, invalidCSS = "invalidInput", raiseModal = TRUE) {

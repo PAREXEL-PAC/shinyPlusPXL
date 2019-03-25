@@ -7,8 +7,12 @@
 #' @param raiseModal Logical, raise a modal \code{sweetAlert} if the input is invalid.
 #' @return Invisible TRUE if executes correctly, can be used for further validation or resets.
 #' @examples
-#' \dontrun{validateThen(session, need(!is.na(x), "x is NA", errorTitle = "Invalid input", raiseModal = TRUE))}
-#' @seealso \code{\link{validateThenCSS}}, \code{\link{errorMessage}}, \code{\link[shiny]{validate}}, \code{\link[shiny]{need}}
+#' \dontrun{validateThen(session,
+#' need(!is.na(x), "x is NA"),
+#' errorTitle = "Invalid input", raiseModal = TRUE)}
+#'
+#' @seealso \code{\link{validateThenCSS}}, \code{\link{errorMessage}},
+#' \code{\link[shiny]{validate}}, \code{\link[shiny]{need}}
 #'
 #' @author Andrea Berardi \email{Andrea.Berardi@@PAREXEL.com}
 validateThen = function(session, ..., errorTitle = NULL, raiseModal = TRUE) {

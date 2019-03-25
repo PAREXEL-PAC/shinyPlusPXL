@@ -27,9 +27,13 @@ Invisible TRUE if executes correctly, can be used for further validation or rese
 Extends \code{shiny::validate} to produce an informative pop-up message and applies a CSS class if invalid
 }
 \examples{
-\dontrun{validateThenCSS(session, "inputId", need(!is.na(x), "x is NA"))}
-#' @seealso \\code{\\link{validateThen}}, \\code{\\link{errorMessage}}, \\code{\\link[shiny]{validate}}, \\code{\\link[shiny]{need}}
+\dontrun{validateThenCSS(session,
+"inputId", need(!is.na(x), "x is NA"))}
 
+}
+\seealso{
+\code{\link{validateThen}}, \code{\link{errorMessage}},
+\code{\link[shiny]{validate}}, \code{\link[shiny]{need}}
 }
 \author{
 Andrea Berardi \email{Andrea.Berardi@PAREXEL.com}

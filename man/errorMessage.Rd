@@ -21,7 +21,7 @@ None
 Produces a sweetAlert-powered customized error message
 }
 \examples{
-errorMessage(session)
+\dontrun{errorMessage(session)}
 
 }
 \author{

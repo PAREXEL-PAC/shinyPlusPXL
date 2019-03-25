@@ -6,7 +6,7 @@
 #' @param title Title text for the pop-up message
 #' @return None
 #' @examples
-#' errorMessage(session)
+#' \dontrun{errorMessage(session)}
 #'
 #' @author Andrea Berardi \email{Andrea.Berardi@PAREXEL.com}
 errorMessage = function(session, text = "Incorrect input entered",
