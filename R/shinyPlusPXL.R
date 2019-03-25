@@ -2,4 +2,5 @@
 #'
 #' @docType package
 #' @name shinyPlusPXL
+#' @author Andrea Berardi \email{Andrea.Berardi@@PAREXEL.com}
 NULL

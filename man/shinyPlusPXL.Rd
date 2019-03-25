@@ -8,3 +8,6 @@
 \description{
 shinyPlusPXL: A Package to Extend Shiny Functions for R/Shiny PAREXEL Applications
 }
+\author{
+Andrea Berardi \email{Andrea.Berardi@PAREXEL.com}
+}

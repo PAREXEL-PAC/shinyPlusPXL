@@ -8,7 +8,7 @@
 #' @examples
 #' \dontrun{errorMessage(session)}
 #'
-#' @author Andrea Berardi \email{Andrea.Berardi@PAREXEL.com}
+#' @author Andrea Berardi \email{Andrea.Berardi@@PAREXEL.com}
 errorMessage = function(session, text = "Incorrect input entered",
                         title = "Input error") {
   shinyWidgets::sendSweetAlert(

@@ -15,7 +15,7 @@
 #' @seealso \code{\link{validateThen}}, \code{\link{errorMessage}},
 #' \code{\link[shiny]{validate}}, \code{\link[shiny]{need}}
 #'
-#' @author Andrea Berardi \email{Andrea.Berardi@PAREXEL.com}
+#' @author Andrea Berardi \email{Andrea.Berardi@@PAREXEL.com}
 validateThenCSS = function(session, inputId, ..., errorTitle = NULL, invalidCSS = "invalidInput", raiseModal = TRUE) {
   results = sapply(list(...), function(x) {
     if (is.null(x))
