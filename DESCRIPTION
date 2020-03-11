@@ -1,7 +1,7 @@
 Package: shinyPlusPXL
 Type: Package
 Title: PAREXEL Shiny Extensions
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person("Andrea", "Berardi", email = "Andrea.Berardi@PAREXEL.com", role = c("aut", "cre", "cph"))
 Maintainer: Andrea Berardi <Andrea.Berardi@PAREXEL.com>
 Description: Extends shiny to use with PAREXEL web applications.
