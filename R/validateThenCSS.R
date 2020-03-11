@@ -3,7 +3,7 @@
 #'
 #' @param session The shiny client session.
 #' @param inputId The input id to be validated.
-#' @param ... function calls to \code{\link[shiny]{need}}.
+#' @param ... function calls to \code{\link[shiny]{validate}}.
 #' @param errorTitle Optional error title string to be passed to \code{link{errorMessage}}.
 #' @param invalidCSS CSS class to be applied if invalid, or removed if valid.
 #' @param raiseModal Logical, raise a modal \code{sweetAlert} if the input is invalid.
@@ -13,7 +13,7 @@
 #' "inputId", need(!is.na(x), "x is NA"))}
 #'
 #' @seealso \code{\link{validateThen}}, \code{\link{errorMessage}},
-#' \code{\link[shiny]{validate}}, \code{\link[shiny]{need}}
+#' \code{\link[shiny]{validate}}
 #'
 #' @author Andrea Berardi \email{Andrea.Berardi@@PAREXEL.com}
 validateThenCSS = function(session, inputId, ..., errorTitle = NULL, invalidCSS = "invalidInput", raiseModal = TRUE) {

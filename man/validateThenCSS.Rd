@@ -12,7 +12,7 @@ validateThenCSS(session, inputId, ..., errorTitle = NULL,
 
 \item{inputId}{The input id to be validated.}
 
-\item{...}{function calls to \code{\link[shiny]{need}}.}
+\item{...}{function calls to \code{\link[shiny]{validate}}.}
 
 \item{errorTitle}{Optional error title string to be passed to \code{link{errorMessage}}.}
 
@@ -33,7 +33,7 @@ Extends \code{shiny::validate} to produce an informative pop-up message and appl
 }
 \seealso{
 \code{\link{validateThen}}, \code{\link{errorMessage}},
-\code{\link[shiny]{validate}}, \code{\link[shiny]{need}}
+\code{\link[shiny]{validate}}
 }
 \author{
 Andrea Berardi \email{Andrea.Berardi@PAREXEL.com}

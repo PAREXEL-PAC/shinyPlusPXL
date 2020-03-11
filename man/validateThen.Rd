@@ -9,7 +9,7 @@ validateThen(session, ..., errorTitle = NULL, raiseModal = TRUE)
 \arguments{
 \item{session}{The shiny client session.}
 
-\item{...}{function calls to \code{\link[shiny]{need}}.}
+\item{...}{function calls to \code{\link[shiny]{validate}}.}
 
 \item{errorTitle}{Optional error title string to be passed to \code{link{errorMessage}}.}
 
@@ -29,7 +29,7 @@ errorTitle = "Invalid input", raiseModal = TRUE)}
 }
 \seealso{
 \code{\link{validateThenCSS}}, \code{\link{errorMessage}},
-\code{\link[shiny]{validate}}, \code{\link[shiny]{need}}
+\code{\link[shiny]{validate}}
 }
 \author{
 Andrea Berardi \email{Andrea.Berardi@PAREXEL.com}

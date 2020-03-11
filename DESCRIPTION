@@ -12,5 +12,7 @@ Imports:
   stats,
   shiny,
   shinyWidgets,
-  shinyjs
+  shinyjs,
+  htmltools,
+  jsonlite
 RoxygenNote: 6.1.1
